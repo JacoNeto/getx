@@ -375,7 +375,7 @@ class GetHttpClient {
       var response = await _performRequest<T>(
         () => _request<T>(
           url,
-          'patch',
+          'PATCH',
           contentType: contentType,
           body: body,
           query: query,
